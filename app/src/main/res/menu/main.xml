@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/clear"
+        app:showAsAction="always"
+        android:title="Clear"
+        android:icon="@mipmap/ic_clear"/>
+
+    <item
+        android:id="@+id/previous_frame"
+        app:showAsAction="always"
+        android:title="Previous_frame"
+        android:icon="@mipmap/ic_previous_frame"/>
+
+    <item
+        android:id="@+id/next_frame"
+        app:showAsAction="always"
+        android:title="Next_frame"
+        android:icon="@mipmap/ic_new_image"/>
+
+    <item
+        android:id="@+id/colors"
+        app:showAsAction="never"
+        android:title="Colors" />
+
+    <item
+        android:id="@+id/eraser"
+        app:showAsAction="never"
+        android:title="Eraser" />
+
+    <item
+        android:id="@+id/onion_skin"
+        app:showAsAction="never"
+        android:title="Onion Skin" />
+
+    <item
+        android:id="@+id/export"
+        app:showAsAction="never"
+        android:title="Export" />
+
+
+</menu>

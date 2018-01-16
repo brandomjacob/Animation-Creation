@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_choose_color"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="brandom.cs449semesterproject.ChooseColor"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/black_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:onClick="Choose_Colors"
+        android:tag="BLACK"
+        app:srcCompat="@android:color/black" />
+
+    <ImageButton
+        android:id="@+id/red_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:onClick="Choose_Colors"
+        android:tag="RED"
+        app:srcCompat="@color/red" />
+
+    <ImageButton
+        android:id="@+id/yellow_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.17"
+        android:onClick="Choose_Colors"
+        android:tag="YELLOW"
+        app:srcCompat="@color/yellow" />
+
+    <ImageButton
+        android:id="@+id/green_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:onClick="Choose_Colors"
+        android:tag="GREEN"
+        app:srcCompat="@color/green" />
+
+    <ImageButton
+        android:id="@+id/blue_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.19"
+        android:onClick="Choose_Colors"
+        android:tag="BLUE"
+        app:srcCompat="@color/blue" />
+
+</LinearLayout>
